@@ -1,0 +1,17 @@
+# database files
+*.db
+*.db-shm
+*.db-wal
+
+# secrets: never commit these
+.env
+
+# build output
+/bin/
+taskapi.exe
+/taskapi
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
